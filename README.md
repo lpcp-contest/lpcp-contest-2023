@@ -2,7 +2,7 @@
 
 [The traditional LP/CP Programming Contest](https://lpcp-contest.github.io/) will be run **on site** during ICLP 2023.
 It will be a two hours session, taking place on Thursday, 13 July, from 16:30 to 18:30.
-The LP/CP Programming Contest 2023 will be held in person, with each team consisting of up to three participants, and be hosted at the ICLP 2023 conference venue, the Imperial College London.
+The LP/CP Programming Contest 2023 will be held in person, with each team consisting of up to three participants, and is hosted at the ICLP 2023 conference venue, the Imperial College London.
 
 **Results, stats and winner** will be announced shortly after the contest at the ICLP 2023 conference banquet.
 
