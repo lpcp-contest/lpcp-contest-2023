@@ -64,7 +64,27 @@ The email address for the registration will be announced here soon.
 
 ## Submission
 
-We plan to use [EasyChair](https://easychair.org/) for the submission of solutions.
+Via [EasyChair](https://easychair.org/conferences/?conf=iclp2023).
+Select the **Competition** track for the submission of solutions.
+
+For each problem you solve, submit a ZIP archive with all files needed to run your solution.
+The title must obey the following format:
+
+```
+team-name:problem-number:version
+```
+
+A good entry-point is a script like `run.sh` reading input instances from STDIN and producing output on STDOUT (see [problem-0](problem-0/example-solution-using-asp)).
+If you opt for a different entry-point or different usage, provide instructions on how to execute your solution in the abstract.
+We may ask support to run your solution at the end of the contest.
+
+Keywords are not important, but you have to provide at least three of them. Use the following:
+
+```
+one
+two
+three
+```
 
 Please make sure that you have an EasyChair account for being ready to submit.
 
