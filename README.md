@@ -71,7 +71,25 @@ Please make sure that you have an EasyChair account for being ready to submit.
 
 ## Checkers
 
-TBA
+The Python client to invoke the remote checkers expects two command-line parameters, namely the problem-ID and the instance-ID.
+The solution to be checked is read from standard input.
+Before the contest, the checker is restricted to an example problem.
+It will be replaced to the unrestricted version during the contest.
+
+Let us consider [problem-0](problem-0) (taken from a previous edition), and its first instance (i.e., instance-1).
+If the solution to be checked is stored in file `instance.1.out`, the checker can be run with one of the following command-lines:
+```bash
+$ ./checker.py 0 1 <instance.1.out
+$ ./checker.py 0 1 <instance.1.out --no-browser
+```
+
+Errors are printed in the standard output.
+The first command-line also opens an ASP Chef visualization of the solution, as well as of errors (if any).
+
+Note also that folder [problem-0](problem-0) includes an example solution using ASP.
+Input is parsed with a generic Python script, which can be easily adapted to other systems.
+Similarly, the output of the ASP engine is mapped to CSV by another Python script.
+The entry point to execute the ASP solution is the bash script `run.sh`.
 
 
 ## Participants
