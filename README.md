@@ -13,8 +13,6 @@ Submitted solutions are expected to have a declarative predominant core.
 Input and output format of problems will be provided according to some easy-to-parse representation, and similarly output must be provided according to some easy-to-write format.
 (Please, have a look at the [previous edition](https://github.com/alviano/lpcp-contest-2022) of the contest to get an idea of the input and output format.)
 
-More detailed information about the technical contest infrastructure will be announced here as it becomes available.
-
 
 ## Systems
 
@@ -53,13 +51,13 @@ As a general suggestion, **submit solutions as soon as you have them**.
 
 ## Registration
 
-The registration will work by email with the following content:
+Send an email to lpcp2023@easychair.org with subject **LP/CP Programming Contest 2023 - Registration** and the following content:
 
 * Team name;
 * List of up to three participants and their affiliations;
 * One or more email addresses to receive feedback.
 
-The email address for the registration will be announced here soon.
+And of course: Join us for the LP/CP Programming Contest 2023 session on **Thursday, 13 July, from 16:30 to 18:30!**
 
 
 ## Submission
