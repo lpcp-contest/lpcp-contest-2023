@@ -112,7 +112,11 @@ The entry point to execute the ASP solution is the bash script `run.sh`.
 
 ## Participants
 
-TBA
+In alphabetical order:
+- **aaunical**: Wolfgang Faber (University of Klagenfurt, Austria), Giuseppe Mazzotta (University of Calabria, Italy), Alice Tarzariol (University of Klagenfurt, Austria)
+- **ASP lovers**: Carmine Dodaro (University of Calabria, Italy), Alessandro Quarta (University of Calabria and Sapienza University, Italy), Francesco Ricca (University of Calabria, Italy)
+- **NotYet**: Matti Berthold (Universität Leipzig, Germany), Richard Comploi-Taupe (Siemens, Austria)
+- **SpaghettiLP**: Damiano Azzolini (University of Ferrara, Italy), Stefano Forti (University of Pisa, Italy), Antonio Ielo (University of Calabria, Italy)
 
 
 ## Organization
