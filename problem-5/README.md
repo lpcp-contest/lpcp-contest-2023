@@ -1,0 +1,91 @@
+# Problem 5
+
+What the hell!
+We ended up in a horror movie, and the Riddler asks us to play a game.
+
+We are in a building with several rooms, each one being a regular square.
+Some of the rooms are lit up, and the others are dark.
+The Riddler left remote controllers in a few rooms.
+Carrying a remote controller from one room to another room flips the state of the light of the latter room, but we must not take a remote controller into a room where there already is one.
+
+We will be free if we find a way to lit up all the building, flipping as little lights as possible!
+
+
+## Special evaluation rules
+
+You will get 0 points if your solution provides a wrong answer in any tested instance (as usual).
+Otherwise, you will get 1 point for each solved instance, unless another participant can provide a better solution than yours.
+
+Stated differently, we don't strictly require to provide an optimal solution.
+We will assign the point to the best solution we receive.
+
+
+## Input format
+
+Five lines, each one containing 5 integers, where
+- `0` denotes a room that is not part of the level
+- `1` denotes a room initially turned on
+- `2` denotes a room initially turned off
+- `3` denotes a room initially turned on and containing a remote controller
+- `4` denotes a room intiially turned off and containing a remote controller
+
+
+## Output format
+
+One line for each move done while carrying a remote controller, each line containing four integers `R C R' C'`, denoting that a remote controller is moved from cell `(R,C)` to cell `(R',C')` .
+
+
+## Constraints
+
+Instances are guaranteed to satisfy the following constraints:
+
+* Each instance can be solved with at most 20 moves (but solutions with more than 20 moves are also accepted).
+
+
+## Example
+
+Instance:
+
+```
+4 2 2 1 3
+0 1 1 0 0
+0 2 1 2 0
+0 0 0 0 0
+0 0 0 0 0
+```
+
+Possible output:
+
+```
+1 5 1 4
+1 1 1 2
+1 2 2 2
+2 2 1 2
+1 2 1 1
+1 4 1 3
+1 1 1 2
+1 2 2 2
+2 2 3 2
+1 3 1 4
+3 2 3 3
+3 3 3 4
+3 4 3 3
+```
+
+Instances as the one above can be yisualized on [ASP Chef](https://asp-chef.alviano.net/#eJy1VE2TozgM/UtAQk9x2EOAACYYNkD48C2YJBhMYIskQH79yqR7q7tn5jS1B8rYki3p6T2dZrcvrrpcGugN1fsLZpsZmdsLlqc7NjbT8m9sxsxej8hEFxwJu06LerOcIxNWa/F9/YuVjYykal0oIc8UfqdOIqG6l+g14Z7hNiT1H8ROzsUqkb7ZZrD11D6wgN9+oJY3qO6YryAZm5sJ19ub/yQNZpKEzXzyUjSTeH8L4q2aP5M2j5Hkp0gV8YuVzmlrScdUu4s3DrY1U+Vw2cvg8bIvNjqjt9PsPktbGyGPNk+nJ4lGlmf6WDgNC67hXKaHAV39rlhRFrSkKhz/Sx3UcTmxeZ1nIRexMlmD+z736/CczWhAbVIfbe38gQmxNFhVCfbS55hUScY8cyvIZV5ylnV9Lx0YxHqUWTjC91OsY6rC+Z6dM2mAOnqy9PEgBabV4LhZe7HFsL2/+fZhCiK5CsySebFb4zSXSV1Vvr2V8yVHbSRLbP4oGLzBfQ651EdD90XOhYOXPKgT9pD7E/L+AZhIxWrzGZOKOvpwitBb6bjyq6bqUQLGpLUGwB/iVPyYlp3gG643o+h5mU5c9AG1tAM82zxLhtLBA7LVF75KVQEnOrqyZMiJ76LxUrRaQxJtztOwLzPc4XjTe4Z+f3GOPIrrvssMNGNHXyNbfoD/k9pWTdKQItb0Hp/uma1ed0uMQ7ez0LCfG/FGezIqc1ejUcQh16Y7sG7GRtMjs7sh+8Xnl/+UCp+Ebaq/I6gF3iRzteSwM6rI2+Je2HNFG4oV6k5pMhS2ttpFzSVg0uW9d/D+ZHrmtv+z+/i39wvbAj2OAo9/4IOzzZsX6e+6X/wGPDe/w2PIU5cXRgW49Qt2P+MwSrtIpcAb6K8qF+BPgUNY9L+1euD185PGX3EtraLyooMncKWCWiT6hSchh7pFj0faJs0x9YGbMBeYe84U4JlyUHxLO79mDWhT1njRLnpsMsWH/gNnr/v/uPlVHyXHyn4O4ovipW5FFn3gNTZklscV6IOAdrGK64QHcTP5v9JHU84wI7o/miUf+0+a8M1FEy8er0RuXBbvglbgng7zMexzxZJItOhFaBJwqh7f5khFW78T80Hk97FfcHmfLR9c+mJfhfzkhOd3vgmsId732dKovrlVgxTDbIH/GGayeZkwkysSu9yLt2s4m4l5WfutyzD75WxZ6v/f5wnzn0dRox2C/g93dJW1LJP++heEuGTl%21).
+
+An animated visualization of the example output can also be inspected on [ASP Chef](https://asp-chef.alviano.net/#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%21).
+
+Finally, we can take a look at the checker errors obtained for the malformed output
+```
+1 5 1 3
+1 1 1 2
+1 2 2 2
+2 2 2 1
+2 1 1 1
+1 1 1 2
+1 3 1 2
+1 2 2 2
+3 3 3 4
+```
+on [ASP Chef](https://asp-chef.alviano.net/#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%21).
