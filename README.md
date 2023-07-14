@@ -118,6 +118,43 @@ In alphabetical order:
 - **NotYet**: Matti Berthold (Universität Leipzig, Germany), Richard Comploi-Taupe (Siemens, Austria)
 - **SpaghettiLP**: Damiano Azzolini (University of Ferrara, Italy), Stefano Forti (University of Pisa, Italy), Antonio Ielo (University of Calabria, Italy)
 
+### 🏆 Winner: SpaghettiLP
+
+Members:
+- Damiano Azzolini (University of Ferrara, Italy)
+- Stefano Forti (University of Pisa, Italy)
+- Antonio Ielo (University of Calabria, Italy)
+
+Stats:
+- Points: 10/25
+- Time of last scored point: 1h20
+- Systems: clingo (problem-1), SWI-prolog (problem-4)
+
+
+### 🥈 Runner Up: aaunical
+
+Members:
+- Wolfgang Faber (University of Klagenfurt, Austria)
+- Giuseppe Mazzotta (University of Calabria, Italy)
+- Alice Tarzariol (University of Klagenfurt, Austria)
+
+Stats:
+- Points: 10/25
+- Time of last scored point: 1h50 minutes
+- System: ASP Chef (problem-1, problem-3)
+
+
+### 🥉 Podium Finish: NotYet
+
+Members:
+- Matti Berthold (Universität Leipzig, Germany)
+- Richard Comploi-Taupe (Siemens, Austria)
+
+Stats:
+- Points: 10/25
+- Time of last scored point: 1h54
+- System: clingo (problem-1, problem-4)
+
 
 ## Organization
 
