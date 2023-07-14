@@ -141,7 +141,7 @@ Members:
 Stats:
 - Points: 10/25
 - Time of last scored point: 1h50 minutes
-- System: ASP Chef (problem-1, problem-3)
+- System: ASP Chef (powered by clingo-wasm; problem-1, problem-3)
 
 
 ### 🥉 Podium Finish: NotYet
